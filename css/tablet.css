@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+  #banner {
+    height: 80vh;
+  }
+  p {
+    font-size: 12px;
+  }
+  #nav-bar .container div {
+    display: none;
+  }
+  #nav-bar .container a:nth-child(2) {
+    margin-right: 30px;
+  }
+  #job-info .container {
+    grid-template-columns: 40% 40%;
+    row-gap: 10px;
+  }
+  #certificate .container .box {
+    flex-direction: column;
+  }
+  #certificate .container .box img {
+    width: 95%;
+  }
+  #certificate .container .box div {
+    padding: 5px 10px;
+  }
+  #certificate .container .box h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px;
+  }
+}
